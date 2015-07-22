@@ -1,0 +1,23 @@
+DEPENDENCIES
+  application_python
+  emacs
+
+GRAPH
+  application (3.0.0)
+  application_python (3.0.0)
+    application (~> 3.0)
+    gunicorn (>= 0.0.0)
+    python (>= 0.0.0)
+    supervisor (>= 0.0.0)
+  build-essential (2.2.3)
+  emacs (0.10.0)
+  gunicorn (1.2.0)
+    python (>= 0.0.0)
+  python (1.4.6)
+    build-essential (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  supervisor (0.4.12)
+    python (>= 0.0.0)
+  yum (3.6.3)
+  yum-epel (0.6.2)
+    yum (~> 3.2)
